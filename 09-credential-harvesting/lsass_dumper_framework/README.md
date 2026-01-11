@@ -442,7 +442,7 @@ This framework is part of the "30 Days of Red Team" series. Contributions welcom
 - [LSASS Memory Dumping Techniques](https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dump-credentials-from-lsass-process-without-mimikatz)
 - [Pypykatz Documentation](https://github.com/skelsec/pypykatz)
 - [SysWhispers2](https://github.com/jthuraisamy/SysWhispers2)
-- [30 Days of Red Team Series](https://medium.com/@yourusername)
+- [30 Days of Red Team Series](https://medium.com/@maxwellcross)
 
 ---
 

@@ -29,7 +29,7 @@ Unauthorized access to computer systems is illegal under laws including the Comp
 - **Day 11:** [C2 Communication Channels](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-11-c2-communication-channels-when-your-primary-lifeline-gets-cut-1f368c53555e)
 - **Day 12:** [Data Exfiltration Methods](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-12-data-exfiltration-methods-3d030ca56cc0?postPublishedType=initial)
 - **Day 13:** [Operational Security & Anti-Forensics](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-13-operational-security-anti-forensics-728df45a09e6)
-- **Day 14:** Week 2 Integration & Practice
+- **Day 14:** [Week 2 Integration & Practice](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-14-week-2-integration-lab-f5b1d39d8942)
 
 ### Week 3: Lateral Movement & Privilege Escalation (Days 15-21)
 - **Day 15:** Credential Harvesting (LSASS, SAM, Registry)
