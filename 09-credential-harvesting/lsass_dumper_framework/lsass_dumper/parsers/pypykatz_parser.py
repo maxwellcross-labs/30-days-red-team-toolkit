@@ -22,8 +22,8 @@ class PyPykatzParser:
     def _check_pypykatz(self):
         """Check if pypykatz is available"""
         try:
-            # from pypykatz.pypykatz import pypykatz
-            #self.pypykatz = pypykatz
+            from pypykatz.pypykatz import pypykatz
+            self.pypykatz = pypykatz
             return True
         except ImportError:
             return False
