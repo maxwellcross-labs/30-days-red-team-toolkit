@@ -48,8 +48,8 @@ token_impersonation_framework/
 
 ```bash
 # Clone or copy the framework
-git clone <repo> token_impersonation_framework
-cd token_impersonation_framework
+git clone <repo> rt_token_impersonation_framework
+cd rt_token_impersonation_framework
 
 # No additional dependencies required (uses standard library)
 ```

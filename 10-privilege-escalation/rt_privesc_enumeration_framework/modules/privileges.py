@@ -1,4 +1,4 @@
-# privesc_enumeration_framework/modules/privileges.py
+# rt_privesc_enumeration_framework/modules/privileges.py
 import os
 import ctypes
 from utils.helpers import run_command
