@@ -25,7 +25,7 @@ The Lateral Movement Framework provides professional-grade automation for:
 ## Quick Start
 
 ```python
-from lateral_movement import LateralMovementHandler, Target, Credential
+from rt_lateral_movement import LateralMovementHandler, Target, Credential
 
 # Initialize handler
 handler = LateralMovementHandler(campaign_id="engagement-2024")
@@ -71,7 +71,7 @@ handler.campaign.save_to_file("campaign_results.json")
 ## Deployment
 
 ```python
-from lateral_movement.modules import AgentDeployer, DeploymentPayload
+from rt_lateral_movement.modules import AgentDeployer, DeploymentPayload
 
 deployer = AgentDeployer()
 

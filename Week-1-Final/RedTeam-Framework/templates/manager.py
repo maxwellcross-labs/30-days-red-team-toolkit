@@ -34,7 +34,7 @@ class AttackChainTemplateManager:
         self.templates = {
             'web_app_takeover': WebAppTemplates.web_app_takeover_chain(),
             'domain_compromise': DomainTemplates.domain_compromise_chain(),
-            'lateral_movement': LateralMovementTemplates.lateral_movement_chain(),
+            'rt_lateral_movement': LateralMovementTemplates.lateral_movement_chain(),
             'data_exfiltration': ExfiltrationTemplates.data_exfiltration_chain(),
             'ransomware_simulation': RansomwareTemplates.ransomware_simulation_chain()
         }

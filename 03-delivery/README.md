@@ -43,7 +43,7 @@ Personalized email template generator using reconnaissance data.
 
 **Usage:**
 ```python
-from template_generator import TemplateGenerator
+from rt_template_generator import TemplateGenerator
 
 target_data = {
     'name': 'John Doe',

@@ -42,7 +42,6 @@ payloads/*.hta
 *.key
 *.pem
 *.crt
-credentials*
 secrets
 passwords*
 tokens*

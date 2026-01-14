@@ -54,7 +54,7 @@ templates/
 - Domain Takeover (DCSync, Pass-the-Hash, Golden Ticket)
 
 ### 3. Lateral Movement
-**ID**: `lateral_movement`  
+**ID**: `rt_lateral_movement`  
 **Target**: Internal network after initial compromise  
 **Difficulty**: Medium  
 **Time**: 2-6 hours

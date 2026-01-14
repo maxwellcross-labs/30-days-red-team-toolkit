@@ -63,7 +63,7 @@ class RedTeamFramework:
             'exploitation': ExploitationPhase(
                 self.config, self.executor, self.logger
             ),
-            'post_exploitation': PostExploitationPhase(
+            'rt_post_exploitation': PostExploitationPhase(
                 self.config, self.executor, self.logger, self.engagement_id
             )
         }
@@ -77,7 +77,7 @@ class RedTeamFramework:
             ('weaponization', 'Phase 2: Weaponization'),
             ('delivery', 'Phase 3: Delivery'),
             ('exploitation', 'Phase 4: Exploitation'),
-            ('post_exploitation', 'Phase 5: Post-Exploitation')
+            ('rt_post_exploitation', 'Phase 5: Post-Exploitation')
         ]
         
         for phase_key, phase_name in phase_sequence:
@@ -163,4 +163,4 @@ class RedTeamFramework:
     
     def phase_5_post_exploitation(self):
         """Execute post-exploitation phase only"""
-        return self._execute_phase('post_exploitation')
+        return self._execute_phase('rt_post_exploitation')

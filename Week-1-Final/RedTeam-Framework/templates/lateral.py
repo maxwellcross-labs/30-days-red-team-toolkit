@@ -31,7 +31,7 @@ class LateralMovementTemplates:
     def _network_discovery_phase():
         """Network discovery and mapping"""
         return {
-            'phase': 'network_discovery',
+            'phase': 'rt_network_discovery',
             'name': 'Internal Network Discovery',
             'description': 'Map internal network and identify targets',
             'steps': [
@@ -117,7 +117,7 @@ class LateralMovementTemplates:
     def _lateral_movement_phase():
         """Execute lateral movement"""
         return {
-            'phase': 'lateral_movement',
+            'phase': 'rt_lateral_movement',
             'name': 'Move to Additional Systems',
             'description': 'Use harvested credentials to access other systems',
             'steps': [

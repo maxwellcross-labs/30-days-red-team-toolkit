@@ -116,7 +116,7 @@ class WebAppTemplates:
     def _post_exploitation_phase():
         """Post-exploitation phase for web servers"""
         return {
-            'phase': 'post_exploitation',
+            'phase': 'rt_post_exploitation',
             'name': 'Web Server Post-Exploitation',
             'description': 'Establish persistent access and gather sensitive data',
             'steps': [

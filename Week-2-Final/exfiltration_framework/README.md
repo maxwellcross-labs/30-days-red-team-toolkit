@@ -26,7 +26,7 @@ The Data Exfiltration Framework provides:
 ## Quick Start
 
 ```python
-from exfiltration import ExfiltrationHandler
+from rt_exfiltration import ExfiltrationHandler
 
 # Initialize handler
 handler = ExfiltrationHandler(
@@ -47,7 +47,7 @@ handler.execute_exfiltration(target_files)
 ## Architecture
 
 ```
-exfiltration_framework/
+rt_exfiltration_framework/
 ├── core/
 │   ├── file_manager.py      # File collection & tracking
 │   ├── staging_area.py      # Temporary storage management

@@ -34,7 +34,7 @@ class ConfigManager:
             'port_scan': True,
             'vulnerability_scan': True,
             'exploitation': True,
-            'post_exploitation': True,
+            'rt_post_exploitation': True,
             'delivery': False
         }
     }
