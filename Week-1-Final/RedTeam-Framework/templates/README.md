@@ -122,8 +122,8 @@ python3 -m templates.cli --import my_custom_attack.json
 
 ```python
 from templates import AttackChainTemplateManager, TemplateExecutor
-from core.logger import EngagementLogger
-from core.executor import CommandExecutor
+from core import EngagementLogger
+from core import CommandExecutor
 
 # Initialize
 manager = AttackChainTemplateManager()
@@ -304,7 +304,7 @@ All executions are logged with:
 Templates integrate with the main framework:
 
 ```python
-from core.framework import RedTeamFramework
+from core import RedTeamFramework
 from templates import AttackChainTemplateManager
 
 framework = RedTeamFramework('config/engagement.json')

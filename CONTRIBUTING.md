@@ -244,7 +244,7 @@ import requests
 from colorama import Fore, Style
 
 # Local
-from utils.network_utils import validate_ip
+from utils import validate_ip
 ```
 
 #### 2. Naming Conventions

@@ -139,7 +139,7 @@ python main.py --multi run_key screensaver logon_script \
 ### Python API Usage
 
 ```python
-from core.orchestrator import RegistryPersistenceOrchestrator
+from core import RegistryPersistenceOrchestrator
 
 # Initialize
 rp = RegistryPersistenceOrchestrator()

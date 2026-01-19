@@ -3,7 +3,7 @@ Phase 1: Reconnaissance operations
 """
 
 from datetime import datetime
-from core.parsers import OutputParsers
+from core import OutputParsers
 
 
 class ReconnaissancePhase:

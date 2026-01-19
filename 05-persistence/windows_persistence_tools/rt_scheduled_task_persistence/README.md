@@ -106,7 +106,7 @@ python main.py --trigger logon --payload C:\payload.exe --task-name "WindowsUpda
 ### Python API
 
 ```python
-from core.orchestrator import ScheduledTaskOrchestrator
+from core import ScheduledTaskOrchestrator
 
 # Initialize
 orch = ScheduledTaskOrchestrator()
@@ -293,13 +293,16 @@ detection:
 # rt_scheduled_task_persistence/__init__.py
 """Scheduled Task Persistence Framework"""
 __version__ = "1.0.0"
-from core.orchestrator import ScheduledTaskOrchestrator
+
+from core import ScheduledTaskOrchestrator
+
 __all__ = ['ScheduledTaskOrchestrator']
 
 # core/__init__.py
 """Core functionality"""
-from core.orchestrator import ScheduledTaskOrchestrator
-from core.utils import *
+from core import ScheduledTaskOrchestrator
+from core import *
+
 __all__ = ['ScheduledTaskOrchestrator']
 
 # triggers/__init__.py
@@ -309,21 +312,25 @@ from triggers.schedule import ScheduleTrigger
 from triggers.idle import IdleTrigger
 from triggers.boot import BootTrigger
 from triggers.multi import MultiTrigger
+
 __all__ = ['LogonTrigger', 'ScheduleTrigger', 'IdleTrigger', 'BootTrigger', 'MultiTrigger']
 
 # detection/__init__.py
 """Detection utilities"""
 from detection.scanner import TaskScanner
+
 __all__ = ['TaskScanner']
 
 # output/__init__.py
 """Output utilities"""
 from output.removal import RemovalScriptGenerator
+
 __all__ = ['RemovalScriptGenerator']
 
 # templates/__init__.py
 """XML templates"""
 from templates.xml_templates import TaskXMLTemplates
+
 __all__ = ['TaskXMLTemplates']
 ```
 

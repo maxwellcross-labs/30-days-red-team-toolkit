@@ -4,13 +4,11 @@ Command-line interface for attack chain templates
 """
 
 import argparse
-import sys
-from pathlib import Path
 
 from templates.manager import AttackChainTemplateManager
 from templates.executor import TemplateExecutor
-from core.logger import EngagementLogger
-from core.executor import CommandExecutor
+from core import EngagementLogger
+from core import CommandExecutor
 
 
 def main():

@@ -4,7 +4,7 @@ Red Team Automation Framework - Main Entry Point
 """
 
 import argparse
-from core.framework import RedTeamFramework
+from core import RedTeamFramework
 
 
 def main():
