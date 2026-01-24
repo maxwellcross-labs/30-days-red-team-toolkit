@@ -34,9 +34,9 @@ Unauthorized access to computer systems is illegal under laws including the Comp
 ### Week 3: Lateral Movement & Privilege Escalation (Days 15-21)
 - **Day 15:** [Credential Harvesting (LSASS, SAM, Registry)](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-15-credential-harvesting-829737ccc5e6)
 - **Day 16:** [Windows Privilege Escalation](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-16-windows-privilege-escalation-9a2ed6f64791)
-- **Day 17:** Linux Privilege Escalation
-- **Day 18:** Lateral Movement Techniques (Pass-the-Hash, WMI, PSRemoting)
-- **Day 19:** Pivoting & Network Tunneling
+- **Day 17:** [Linux Privilege Escalation](https://medium.com/30-days-of-red-team/linux-privilege-escalation-30-days-of-red-team-day-17-08f832131043)
+- **Day 18:** [Lateral Movement Techniques (Pass-the-Hash, WMI, PSRemoting)](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-18-lateral-movement-techniques-b262f688118d)
+- **Day 19:** [Pivoting & Network Tunneling](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-19-network-pivoting-reaching-the-unreachable-bd082b3906a2)
 - **Day 20:** Exploiting Trust Relationships
 - **Day 21:** Week 3 Integration & Practice
 
