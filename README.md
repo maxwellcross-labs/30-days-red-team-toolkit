@@ -37,8 +37,8 @@ Unauthorized access to computer systems is illegal under laws including the Comp
 - **Day 17:** [Linux Privilege Escalation](https://medium.com/30-days-of-red-team/linux-privilege-escalation-30-days-of-red-team-day-17-08f832131043)
 - **Day 18:** [Lateral Movement Techniques (Pass-the-Hash, WMI, PSRemoting)](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-18-lateral-movement-techniques-b262f688118d)
 - **Day 19:** [Pivoting & Network Tunneling](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-19-network-pivoting-reaching-the-unreachable-bd082b3906a2)
-- **Day 20:** Exploiting Trust Relationships
-- **Day 21:** Week 3 Integration & Practice
+- **Day 20:** [Exploiting Trust Relationships](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-20-exploiting-trust-relationships-70d884664e3a)
+- **Day 21:** [Week 3 Integration & Practice](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-21-week-3-integration-practice-223a568ffce4)
 
 ### Week 4: Active Directory & Domain Dominance (Days 22-28)
 - **Day 22:** Active Directory Enumeration
