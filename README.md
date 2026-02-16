@@ -41,16 +41,16 @@ Unauthorized access to computer systems is illegal under laws including the Comp
 - **Day 21:** [Week 3 Integration & Practice](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-21-week-3-integration-practice-223a568ffce4)
 
 ### Week 4: Active Directory & Domain Dominance (Days 22-28)
-- **Day 22:** Active Directory Enumeration
-- **Day 23:** Kerberoasting & AS-REP Roasting
-- **Day 24:** Pass-the-Ticket & Overpass-the-Hash
-- **Day 25:** Golden & Silver Tickets
-- **Day 26:** DCSync & Domain Admin Compromise
-- **Day 27:** Persistence at Domain Level
-- **Day 28:** Week 4 Integration & Practice
+- **Day 22:** [Active Directory Enumeration](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-22-active-directory-enumeration-bloodhound-8240538d9edb)
+- **Day 23:** [Kerberoasting & AS-REP Roasting](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-23-kerberoasting-as-rep-roasting-ad99f265e0c5)
+- **Day 24:** [Pass-the-Ticket & Overpass-the-Hash](https://medium.com/30-days-of-red-team/30-days-of-red-team-day-24-pass-the-ticket-overpass-the-hash-aa87e2e8486c)
+- **Day 25:** DCSync & Domain Admin Compromise
+- **Day 26:** Persistence at Domain Level
+- **Day 27:** Week 4 Integration & Practice
+- **Day 28:** Advanced Evasion & Detection Bypass
 
 ### Week 5: Advanced Topics & Wrap-Up (Days 29-30)
-- **Day 29:** Advanced Evasion & Detection Bypass
+- **Day 29:** Purple Team & Defensive Perspective
 - **Day 30:** Series Wrap-Up & Building Your Career
 
 ## 🚀 Quick Start
